@@ -62,9 +62,107 @@ summary{cursor:pointer;font-weight:bold}
 
 <section class="section">
 <h2>キャリアバー</h2>
-<p>活動期間</p>
-<div class="bar"><div class="bar-inner"></div></div>
-<p class="work-note">2005年 → 2012年頃。将来的にはメーカー別に色分けし、S1・アリスJAPAN・マスカッツ活動を分けて表示予定。</p>
+
+<style>
+.career-wrap{
+margin-top:20px;
+}
+
+.career-years{
+display:flex;
+justify-content:space-between;
+font-weight:700;
+font-size:14px;
+margin-bottom:15px;
+}
+
+.career-row{
+margin-bottom:18px;
+}
+
+.career-label{
+font-weight:700;
+margin-bottom:6px;
+}
+
+.career-track{
+height:22px;
+background:#eee;
+border-radius:999px;
+position:relative;
+overflow:hidden;
+}
+
+.career-fill{
+position:absolute;
+top:0;
+height:100%;
+border-radius:999px;
+}
+
+.career-s1{
+left:0%;
+width:100%;
+background:#4a74ff;
+}
+
+.career-alice{
+left:0%;
+width:100%;
+background:#ff6b6b;
+}
+
+.career-mascots{
+left:43%;
+width:57%;
+background:#45c26b;
+}
+
+.career-note{
+font-size:13px;
+color:#666;
+margin-top:4px;
+}
+</style>
+
+<div class="career-wrap">
+
+<div class="career-years">
+<span>2005</span>
+<span>2013</span>
+</div>
+
+<div class="career-row">
+<div class="career-label">S1</div>
+<div class="career-track">
+<div class="career-fill career-s1"></div>
+</div>
+<div class="career-note">2005〜2012頃</div>
+</div>
+
+<div class="career-row">
+<div class="career-label">アリスJAPAN</div>
+<div class="career-track">
+<div class="career-fill career-alice"></div>
+</div>
+<div class="career-note">2005〜2012頃</div>
+</div>
+
+<div class="career-row">
+<div class="career-label">恵比寿マスカッツ</div>
+<div class="career-track">
+<div class="career-fill career-mascots"></div>
+</div>
+<div class="career-note">2008〜2013</div>
+</div>
+
+</div>
+
+<p class="work-note">
+青＝S1、赤＝アリスJAPAN、緑＝恵比寿マスカッツ。
+将来的には移籍・改名・休業なども追加予定。
+</p>
+
 </section>
 
 <section class="section">

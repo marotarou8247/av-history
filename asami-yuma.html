@@ -36,6 +36,7 @@ display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:20px;
 margin-top:18px;
+align-items:stretch;
 }
 
 .featured-card{
@@ -43,6 +44,8 @@ border:1px solid #ddd;
 border-radius:12px;
 overflow:hidden;
 background:#fff;
+display:flex;
+flex-direction:column;
 }
 
 .featured-card img{
@@ -70,6 +73,7 @@ color:#666;
 .review-btn{
 display:inline-block;
 margin:12px;
+margin-top:auto;
 padding:8px 12px;
 background:#4a74ff;
 color:#fff;
@@ -77,6 +81,7 @@ border-radius:8px;
 text-decoration:none;
 font-size:13px;
 font-weight:700;
+align-self:flex-start;
 }
 
 .review-btn:hover{

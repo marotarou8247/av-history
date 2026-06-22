@@ -11,89 +11,40 @@ a{color:#06c;text-decoration:none}a:hover{text-decoration:underline}
 .info-table,.timeline-table,.works-table{width:100%;border-collapse:collapse}
 .info-table th,.info-table td,.timeline-table th,.timeline-table td,.works-table th,.works-table td{border:1px solid #ddd;padding:10px}
 .info-table th,.timeline-table th,.works-table th{background:#f5f5f5}
-.badge{display:inline-block;padding:3px 8px;border-radius:6px;font-size:12px;font-weight:bold}
+.badge{display:inline-block;padding:3px 8px;border-radius:6px;font-size:12px;font-weight:bold;white-space:nowrap}
 .debut{background:#dff6dd}.retire{background:#ffe0e0}.event{background:#eef3ff}.review{background:#fff4cc}
 .hero-card{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:24px 0}
 .hero-card div{border:1px solid #ddd;border-radius:12px;padding:14px;background:#fafafa}
 .hero-card strong{display:block;font-size:13px;color:#666}
-details{border:1px solid #ddd;border-radius:10px;padding:12px 16px;margin-bottom:14px;background:#fff}
-summary{cursor:pointer;font-weight:bold}
 .work-note{font-size:13px;color:#666}
 .footer{margin-top:60px;color:#888;font-size:14px}
 
+/* career */
 .career-years{display:flex;justify-content:space-between;font-weight:700;font-size:14px;margin-bottom:15px}
 .career-row{margin-bottom:18px}
 .career-label{font-weight:700;margin-bottom:6px}
 .career-track{height:22px;background:#eee;border-radius:999px;position:relative;overflow:hidden}
 .career-fill{position:absolute;top:0;height:100%;border-radius:999px}
-.career-s1{left:0%;width:100%;background:#4a74ff}
-.career-alice{left:0%;width:100%;background:#ff6b6b}
-.career-mascots{left:43%;width:57%;background:#45c26b}
+.career-exclusive{left:0%;width:88%;background:#4a74ff}
+.career-mascots{left:38%;width:62%;background:#45c26b}
 .career-note{font-size:13px;color:#666;margin-top:4px}
 
-.featured-grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:20px;
-margin-top:18px;
-align-items:stretch;
-}
+/* featured */
+.featured-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:18px;align-items:stretch}
+.featured-card{border:1px solid #ddd;border-radius:12px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.featured-card img{width:100%;height:auto;display:block;background:#f3f3f3}
+.featured-card h3{font-size:15px;line-height:1.6;padding:12px 12px 0;margin:0}
+.featured-card p{font-size:13px;line-height:1.7;padding:8px 12px;margin:0;color:#666}
+.review-btn{display:inline-block;margin:12px;margin-top:auto;padding:8px 12px;background:#4a74ff;color:#fff;border-radius:8px;text-decoration:none;font-size:13px;font-weight:700;align-self:flex-start}
+.review-btn:hover{opacity:.85;text-decoration:none}
 
-.featured-card{
-border:1px solid #ddd;
-border-radius:12px;
-overflow:hidden;
-background:#fff;
-display:flex;
-flex-direction:column;
-}
-
-.featured-card img{
-width:100%;
-height:auto;
-display:block;
-background:#f3f3f3;
-}
-
-.featured-card h3{
-font-size:15px;
-line-height:1.6;
-padding:12px 12px 0;
-margin:0;
-}
-
-.featured-card p{
-font-size:13px;
-line-height:1.7;
-padding:8px 12px;
-margin:0;
-color:#666;
-}
-
-.review-btn{
-display:inline-block;
-margin:12px;
-margin-top:auto;
-padding:8px 12px;
-background:#4a74ff;
-color:#fff;
-border-radius:8px;
-text-decoration:none;
-font-size:13px;
-font-weight:700;
-align-self:flex-start;
-}
-
-.review-btn:hover{
-opacity:.85;
-text-decoration:none;
-}
+/* works */
+details{border:1px solid #ddd;border-radius:10px;padding:12px 16px;margin-bottom:14px;background:#fff}
+summary{cursor:pointer;font-weight:bold}
 
 @media(max-width:700px){
   .hero-card{grid-template-columns:1fr}
-  .featured-card{grid-template-columns:100px 1fr;gap:12px}
-  .featured-card img{width:100px;height:140px}
-  .featured-card h3{font-size:15px}
+  .featured-grid{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -102,7 +53,7 @@ text-decoration:none;
 <p><a href="./">← トップへ戻る</a></p>
 
 <h1>麻美ゆま</h1>
-<p>2000年代後半から2010年代前半を代表するトップ女優の一人。S1・アリスJAPANの看板級として活躍し、恵比寿マスカッツでも中心メンバーを務めた。</p>
+<p>2000年代後半を代表するトップ女優の一人。S1・アリスJAPANの看板級として活躍し、明るさとヒロイン感を兼ね備えたスター女優として記憶されている。</p>
 
 <div class="hero-card">
   <div><strong>デビュー</strong>2005年</div>
@@ -114,21 +65,20 @@ text-decoration:none;
 <h2>基本情報</h2>
 <table class="info-table">
 <tr><th>主なメーカー</th><td>S1 / アリスJAPAN</td></tr>
-<tr><th>関連メーカー</th><td>E-BODY / アタッカーズ / Premium など ※要確認</td></tr>
+<tr><th>キャリアタイプ</th><td>専属スター型</td></tr>
 <tr><th>代表世代</th><td>2000年代後半</td></tr>
-<tr><th>活動タイプ</th><td>専属スター型 / メディア展開型</td></tr>
 <tr><th>改名歴</th><td>大きな改名は確認なし</td></tr>
+<tr><th>補足</th><td>一部、アタッカーズなどの出演作あり。主軸はS1・アリスJAPAN。</td></tr>
 </table>
 </section>
 
 <section class="section">
-<h2>所属・メーカー遍歴</h2>
+<h2>活動区分</h2>
 <table class="info-table">
-<tr><th>期間</th><th>メーカー・活動</th><th>備考</th></tr>
-<tr><td>2005年頃〜2012年頃</td><td>S1</td><td>主力メーカー</td></tr>
-<tr><td>2005年頃〜2012年頃</td><td>アリスJAPAN</td><td>主力メーカー</td></tr>
-<tr><td>単発・企画</td><td>E-BODY / アタッカーズ / Premium など</td><td>詳細は作品一覧で要確認</td></tr>
-<tr><td>2008年〜2013年</td><td>恵比寿マスカッツ</td><td>2代目リーダー</td></tr>
+<tr><th>期間</th><th>区分</th><th>備考</th></tr>
+<tr><td>2005年頃〜2012年頃</td><td>専属活動</td><td>S1・アリスJAPANを中心に活動</td></tr>
+<tr><td>一部作品</td><td>企画・ドラマ出演</td><td>アタッカーズなどの出演作あり</td></tr>
+<tr><td>2008年〜2013年</td><td>恵比寿マスカッツ</td><td>AV活動期と重なるタレント活動</td></tr>
 </table>
 </section>
 
@@ -141,24 +91,18 @@ text-decoration:none;
 </div>
 
 <div class="career-row">
-<div class="career-label">S1</div>
-<div class="career-track"><div class="career-fill career-s1"></div></div>
-<div class="career-note">2005〜2012頃</div>
-</div>
-
-<div class="career-row">
-<div class="career-label">アリスJAPAN</div>
-<div class="career-track"><div class="career-fill career-alice"></div></div>
-<div class="career-note">2005〜2012頃</div>
+<div class="career-label">AV専属活動</div>
+<div class="career-track"><div class="career-fill career-exclusive"></div></div>
+<div class="career-note">2005〜2012頃。S1・アリスJAPANを中心に活動。</div>
 </div>
 
 <div class="career-row">
 <div class="career-label">恵比寿マスカッツ</div>
 <div class="career-track"><div class="career-fill career-mascots"></div></div>
-<div class="career-note">2008〜2013</div>
+<div class="career-note">2008〜2013。AV活動期と重なるメディア展開。</div>
 </div>
 
-<p class="work-note">青＝S1、赤＝アリスJAPAN、緑＝恵比寿マスカッツ。</p>
+<p class="work-note">青＝AV活動、緑＝関連メディア活動。細かい単発メーカーは作品一覧側で補足。</p>
 </section>
 
 <section class="section">
@@ -168,7 +112,7 @@ text-decoration:none;
 <tr><td>2005</td><td><span class="badge debut">デビュー</span></td><td>AVデビュー</td></tr>
 <tr><td>2008</td><td><span class="badge event">転機</span></td><td>恵比寿マスカッツ参加</td></tr>
 <tr><td>2010</td><td><span class="badge event">活躍</span></td><td>恵比寿マスカッツ2代目リーダー就任</td></tr>
-<tr><td>2012</td><td><span class="badge retire">引退期</span></td><td>AV出演終了</td></tr>
+<tr><td>2012</td><td><span class="badge retire">引退期</span></td><td>AV出演終了期</td></tr>
 <tr><td>2013</td><td><span class="badge event">活動</span></td><td>恵比寿マスカッツ卒業</td></tr>
 </table>
 </section>
@@ -193,7 +137,7 @@ text-decoration:none;
 </div>
 
 <div class="featured-card">
-<img src="soe00579pl.webp" alt="秘密捜査官の女">
+<img src="soe00579pl.webp" alt="秘密捜査官の女 監禁飼育されたエージェント 麻美ゆま">
 <h3>秘密捜査官の女 監禁飼育されたエージェント 麻美ゆま</h3>
 <p>アタッカーズ系のドラマ作品。麻美ゆまらしい演技力も魅力。</p>
 <a class="review-btn" href="https://eroism.jp/soe00579/" target="_blank">レビューを見る</a>
@@ -201,10 +145,40 @@ text-decoration:none;
 
 </div>
 </section>
+
+<section class="section">
+<h2>リリース作品一覧</h2>
+<p>年ごとの発売作品を整理する予定。レビュー済み作品には評価とエロイズムへのリンクを付ける。</p>
+
+<details open>
+<summary>2005年</summary>
+<table class="works-table">
+<tr><th>発売日</th><th>作品名</th><th>メーカー</th><th>メモ</th></tr>
+<tr><td>2005-xx-xx</td><td>作品タイトルを追加</td><td>S1 / アリスJAPAN</td><td>デビュー期</td></tr>
+</table>
+</details>
+
+<details>
+<summary>2006年</summary>
+<table class="works-table">
+<tr><th>発売日</th><th>作品名</th><th>メーカー</th><th>メモ</th></tr>
+<tr><td>2006-xx-xx</td><td>作品タイトルを追加</td><td>---</td><td>---</td></tr>
+</table>
+</details>
+
+<details>
+<summary>2007年</summary>
+<table class="works-table">
+<tr><th>発売日</th><th>作品名</th><th>メーカー</th><th>メモ</th></tr>
+<tr><td>2007-xx-xx</td><td>作品タイトルを追加</td><td>---</td><td>---</td></tr>
+</table>
+</details>
+</section>
+
 <section class="section">
 <h2>業界での立ち位置</h2>
-<p>麻美ゆまは2000年代後半を代表するトップ女優の一人。AV出演だけでなくテレビ・音楽活動でも活躍し、AVファン以外にも名前が知られた数少ない存在だった。</p>
-<p>恵比寿マスカッツの中心メンバーとしても知られ、当時の業界を語る上で欠かせない女優である。</p>
+<p>麻美ゆまは2000年代後半を代表するトップ女優の一人。AV出演だけでなく、当時のメディア展開でも存在感を示した。</p>
+<p>S1・アリスJAPANの二本柱で活躍した専属スター型の女優であり、当時のAVファンにとって外しにくい存在だった。</p>
 </section>
 
 <section class="section">

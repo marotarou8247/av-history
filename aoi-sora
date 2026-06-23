@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>蒼井そら｜AV女優アーカイブ</title>
+
+<style>
+body{max-width:900px;margin:40px auto;padding:0 20px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.8;color:#333}
+a{color:#06c;text-decoration:none}
+a:hover{text-decoration:underline}
+
+.section{margin-top:48px}
+
+.info-table,.timeline-table{
+width:100%;
+border-collapse:collapse
+}
+
+.info-table th,
+.info-table td,
+.timeline-table th,
+.timeline-table td{
+border:1px solid #ddd;
+padding:10px
+}
+
+.info-table th,
+.timeline-table th{
+background:#f5f5f5
+}
+
+.badge{
+display:inline-block;
+padding:3px 8px;
+border-radius:6px;
+font-size:12px;
+font-weight:bold;
+white-space:nowrap
+}
+
+.debut{background:#dff6dd}
+.retire{background:#ffe0e0}
+.event{background:#eef3ff}
+
+.hero-card{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:12px;
+margin:24px 0
+}
+
+.hero-card div{
+border:1px solid #ddd;
+border-radius:12px;
+padding:14px;
+background:#fafafa
+}
+
+.hero-card strong{
+display:block;
+font-size:13px;
+color:#666
+}
+
+.footer{
+margin-top:60px;
+color:#888;
+font-size:14px
+}
+
+/* career */
+
+.career-years{
+display:flex;
+justify-content:space-between;
+font-weight:700;
+font-size:14px;
+margin-bottom:15px
+}
+
+.career-row{
+margin-bottom:18px
+}
+
+.career-label{
+font-weight:700;
+margin-bottom:6px
+}
+
+.career-track{
+height:22px;
+background:#eee;
+border-radius:999px;
+position:relative;
+overflow:hidden
+}
+
+.career-fill{
+position:absolute;
+top:0;
+height:100%;
+border-radius:999px
+}
+
+.career-av{
+left:0%;
+width:100%;
+background:#4a74ff
+}
+
+.career-mascots{
+left:66%;
+width:34%;
+background:#45c26b
+}
+
+.career-note{
+font-size:13px;
+color:#666;
+margin-top:4px
+}
+
+@media(max-width:700px){
+.hero-card{
+grid-template-columns:1fr
+}
+}
+</style>
+</head>
+
+<body>
+
+<p><a href="./">← トップへ戻る</a></p>
+
+<h1>蒼井そら</h1>
+
+<p>
+2000年代を代表するAV女優の一人。
+AVファン以外にも広く名前が知られた存在であり、
+日本だけでなく中国圏でも圧倒的な知名度を獲得した。
+AV女優の枠を超えて活躍した数少ないレジェンドである。
+</p>
+
+<div class="hero-card">
+<div>
+<strong>デビュー</strong>
+2002年
+</div>
+
+<div>
+<strong>AV活動終了</strong>
+2011年頃
+</div>
+
+<div>
+<strong>活動期間</strong>
+約9年
+</div>
+</div>
+
+<section class="section">
+
+<h2>基本情報</h2>
+
+<table class="info-table">
+<tr>
+<th>主なメーカー</th>
+<td>アリスJAPAN / MAX-A / S1</td>
+</tr>
+
+<tr>
+<th>キャリアタイプ</th>
+<td>メディア進出型</td>
+</tr>
+
+<tr>
+<th>代表世代</th>
+<td>2000年代</td>
+</tr>
+
+<tr>
+<th>愛称</th>
+<td>そらちゃん</td>
+</tr>
+
+<tr>
+<th>補足</th>
+<td>AV女優としてだけでなく、中国圏で社会現象級の人気を獲得したことで知られる。</td>
+</tr>
+</table>
+
+</section>
+
+<section class="section">
+
+<h2>キャリアバー</h2>
+
+<div class="career-years">
+<span>2002</span>
+<span>2011</span>
+</div>
+
+<div class="career-row">
+<div class="career-label">AV活動</div>
+<div class="career-track">
+<div class="career-fill career-av"></div>
+</div>
+<div class="career-note">
+2002〜2011頃。アリスJAPAN、MAX-A、S1を中心に活動。
+</div>
+</div>
+
+<div class="career-row">
+<div class="career-label">恵比寿マスカッツ</div>
+<div class="career-track">
+<div class="career-fill career-mascots"></div>
+</div>
+<div class="career-note">
+2008〜2011頃。初代リーダーとしても知られる。
+</div>
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>活動年表</h2>
+
+<table class="timeline-table">
+
+<tr>
+<th>年</th>
+<th>種別</th>
+<th>出来事</th>
+</tr>
+
+<tr>
+<td>2002</td>
+<td><span class="badge debut">デビュー</span></td>
+<td>AVデビュー</td>
+</tr>
+
+<tr>
+<td>2004</td>
+<td><span class="badge event">転機</span></td>
+<td>S1移籍後にトップ女優としてブレイク</td>
+</tr>
+
+<tr>
+<td>2008</td>
+<td><span class="badge event">活動</span></td>
+<td>恵比寿マスカッツ参加</td>
+</tr>
+
+<tr>
+<td>2009</td>
+<td><span class="badge event">海外</span></td>
+<td>中国圏で爆発的人気を獲得</td>
+</tr>
+
+<tr>
+<td>2011</td>
+<td><span class="badge retire">引退期</span></td>
+<td>AV活動終了期</td>
+</tr>
+
+</table>
+
+</section>
+
+<section class="section">
+
+<h2>管理人メモ</h2>
+
+<p>
+当時を知らない人でも名前だけは聞いたことがあるレベルの知名度を持つ女優。
+AV女優という枠を超えて一般メディアでも活躍し、
+海外でここまで成功した例は非常に少ない。
+</p>
+
+<p>
+2000年代を象徴する女優を一人挙げるなら、
+蒼井そらを候補に入れる人は多いと思う。
+</p>
+
+</section>
+
+<section class="section">
+
+<h2>業界での立ち位置</h2>
+
+<p>
+蒼井そらは2000年代のAV業界を代表する女優の一人であり、
+AV女優の知名度が一般層へ広がっていく時代を象徴する存在だった。
+</p>
+
+<p>
+特に中国圏での人気は突出しており、
+日本のAV女優としては例外的なレベルの国際的知名度を獲得した。
+単なる人気女優ではなく、
+文化的な広がりを持った存在として語られることが多い。
+</p>
+
+<p>
+作品よりも人物そのものの影響力が大きかった数少ないレジェンド級女優である。
+</p>
+
+</section>
+
+<div class="footer">
+AV女優アーカイブ
+</div>
+
+</body>
+</html>
